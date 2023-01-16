@@ -5,16 +5,20 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene 2.unity
     guid: 57f891a4c85825c4694d9f33413c257e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene 3.unity
     guid: 487383e40f1b3bd42884175bb524cc4c
+  - enabled: 1
+    path: Assets/Scenes/Mars_scene.unity
+    guid: a63e9e46ee270c44aabcd8111bfacd95
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 390f2dd9116a43c4fac29016211dd3f6, type: 2}
+    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: f6e3e2eb09ede554e89199a0df7d8ce4, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: bfeb463808b6da241b64b9c5934630c8, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 0e21c71c840d67b4880b88f306ec84df, type: 2}
