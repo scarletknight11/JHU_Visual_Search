@@ -294,6 +294,16 @@ namespace Oculus.Interaction.Input
             _aspects = aspects;
         }
 
+        public void SetGrip(float v)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void SetTrigger(float v)
+        {
+            throw new NotImplementedException();
+        }
+
         #endregion
     }
 }

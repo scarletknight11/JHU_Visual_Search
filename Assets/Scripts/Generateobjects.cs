@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR;
+using UnityEngine.InputSystem;
 
 
 public class Generateobjects : MonoBehaviour {
@@ -40,5 +41,11 @@ public class Generateobjects : MonoBehaviour {
             //objects[4].SetActive(true);
             //objects[5].SetActive(true);
         }
+        
+
+        
+
+        
+
     }
 }
