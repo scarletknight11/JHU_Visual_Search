@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638098369315783380
-    m_Hash: 1059362247
+      ticks: 638107068731817914
+    m_Hash: 1808075109
   m_LockFileStatus:
     m_FilePath: D:/JHU_Visual_Search/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638098369995234010
-    m_Hash: 3522179548
+      ticks: 638107068732412821
+    m_Hash: 1141494062
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -36,6 +36,169 @@ m_LocalPackages:
 m_ProjectPath: D:/JHU_Visual_Search/Packages
 m_EditorVersion: 2021.3.15f1 (e8e88683f834)
 m_ResolvedPackages:
+- packageId: com.normalvr.normcore@2.4.1
+  testable: 0
+  isDirectDependency: 1
+  version: 2.4.1
+  source: 1
+  resolvedPath: D:\JHU_Visual_Search\Library\PackageCache\com.normalvr.normcore@2.4.1
+  assetPath: Packages/com.normalvr.normcore
+  name: com.normalvr.normcore
+  displayName: Normcore
+  author:
+    name: Normal
+    email: max@normalvr.com
+    url: https://normcore.io
+  category: 
+  type: 
+  description: Your friendly neighborhood networking plugin :)
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 2.0.0-preview.6
+    - 2.0.0-preview.7
+    - 2.0.0-preview.8
+    - 2.0.0-preview.10
+    - 2.0.0-preview.11
+    - 2.0.0-preview.12
+    - 2.0.0-preview.13
+    - 2.0.0-preview.14
+    - 2.0.0-preview.15
+    - 2.0.0-preview.17
+    - 2.0.0-preview.18
+    - 2.0.0-preview.19
+    - 2.0.0-preview.20
+    - 2.0.0
+    - 2.0.1
+    - 2.0.3
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.5
+    - 2.1.6-rc1
+    - 2.1.6-rc2
+    - 2.1.6-rc3
+    - 2.1.6
+    - 2.1.7
+    - 2.1.8
+    - 2.1.9
+    - 2.1.10
+    - 2.1.11
+    - 2.2.1-rc1
+    - 2.2.1-rc2
+    - 2.2.1
+    - 2.2.2-rc1
+    - 2.2.2
+    - 2.2.3-rc1
+    - 2.2.3
+    - 2.3.0-rc.1
+    - 2.3.0-rc.2
+    - 2.3.0-rc.3
+    - 2.3.0-rc.4
+    - 2.3.0
+    - 2.3.1-rc.1
+    - 2.3.1
+    - 2.3.2-rc.1
+    - 2.3.2
+    - 2.4.0-rc.1
+    - 2.4.0
+    - 2.4.1-rc.0
+    - 2.4.1-rc.1
+    - 2.4.1-rc.2
+    - 2.4.1
+    - 2.4.2-rc.0
+    compatible:
+    - 2.0.0-preview.6
+    - 2.0.0-preview.7
+    - 2.0.0-preview.8
+    - 2.0.0-preview.10
+    - 2.0.0-preview.11
+    - 2.0.0-preview.12
+    - 2.0.0-preview.13
+    - 2.0.0-preview.14
+    - 2.0.0-preview.15
+    - 2.0.0-preview.17
+    - 2.0.0-preview.18
+    - 2.0.0-preview.19
+    - 2.0.0-preview.20
+    - 2.0.0
+    - 2.0.1
+    - 2.0.3
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.5
+    - 2.1.6-rc1
+    - 2.1.6-rc2
+    - 2.1.6-rc3
+    - 2.1.6
+    - 2.1.7
+    - 2.1.8
+    - 2.1.9
+    - 2.1.10
+    - 2.1.11
+    - 2.2.1-rc1
+    - 2.2.1-rc2
+    - 2.2.1
+    - 2.2.2-rc1
+    - 2.2.2
+    - 2.2.3-rc1
+    - 2.2.3
+    - 2.3.0-rc.1
+    - 2.3.0-rc.2
+    - 2.3.0-rc.3
+    - 2.3.0-rc.4
+    - 2.3.0
+    - 2.3.1-rc.1
+    - 2.3.1
+    - 2.3.2-rc.1
+    - 2.3.2
+    - 2.4.0-rc.1
+    - 2.4.0
+    - 2.4.1-rc.0
+    - 2.4.1-rc.1
+    - 2.4.1-rc.2
+    - 2.4.1
+    - 2.4.2-rc.0
+    verified: 
+  dependencies:
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  keywords:
+  - normal
+  - normcore
+  - multiplayer
+  registry:
+    id: scoped:project:Normal
+    name: Normal
+    url: https://normcore-registry.normcore.io
+    scopes:
+    - com.normalvr
+    - io.normcore
+    isDefault: 0
+    capabilities: 0
+    configSource: 4
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638055381283370000
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
 - packageId: com.unity.collab-proxy@1.17.7
   testable: 0
   isDirectDependency: 1
@@ -3867,8 +4030,10 @@ m_ResolvedPackages:
     - 1.4.2
     - 1.4.3
     - 1.4.4
+    - 1.5.0
     compatible:
     - 1.4.4
+    - 1.5.0
     verified: 1.4.4
   dependencies:
   - name: com.unity.modules.uielements

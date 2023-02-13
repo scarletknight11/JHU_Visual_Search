@@ -20,7 +20,7 @@ public class Generateobjects : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.A)) 
+        if (Input.GetKeyDown(KeyCode.A))
         {
             Time.timeScale = 1.0f;
             cross.SetActive(false);
@@ -41,11 +41,5 @@ public class Generateobjects : MonoBehaviour {
             //objects[4].SetActive(true);
             //objects[5].SetActive(true);
         }
-        
-
-        
-
-        
-
     }
 }

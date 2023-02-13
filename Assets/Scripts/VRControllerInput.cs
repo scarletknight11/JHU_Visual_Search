@@ -30,7 +30,6 @@ public class VRControllerInput : MonoBehaviour {
         {
             Debug.Log(item.name + item.characteristics);
         }
-
     }
 
     // Update is called once per frame
@@ -47,13 +46,5 @@ public class VRControllerInput : MonoBehaviour {
         {
             cross.SetActive(false);
         }
-        //bool pressed;
-       // rightHand.inputDevice.IsPressed(button, out pressed);
-
-        //if (pressed)
-        //{
-            //cross.SetActive(false);
-        ///}
-
     }
 }
