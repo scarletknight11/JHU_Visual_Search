@@ -8,7 +8,6 @@ public class MaterialsDemo : MonoBehaviour {
 
     public GameObject[] coloredWalls;
     public Material[] randomMaterials;
-    //public Material SphereMaterial;
 
     // Use this for initialization
     void Start()
@@ -43,7 +42,6 @@ public class MaterialsDemo : MonoBehaviour {
         coloredWalls[27].GetComponent<MeshRenderer>().material = randomMaterials[Random.Range(0, randomMaterials.Length)];
         coloredWalls[28].GetComponent<MeshRenderer>().material = randomMaterials[Random.Range(0, randomMaterials.Length)];
         coloredWalls[29].GetComponent<MeshRenderer>().material = randomMaterials[Random.Range(0, randomMaterials.Length)];
-
 
         if (coloredWalls[0].GetComponent<MeshRenderer>().material = randomMaterials[Random.Range(0, randomMaterials.Length)])
         {
@@ -119,10 +117,5 @@ public class MaterialsDemo : MonoBehaviour {
         {
             coloredWalls[29].GetComponent<MeshRenderer>().material = coloredWalls[14].GetComponent<MeshRenderer>().material;
         }
-
-
     }
-
-
-
 }
