@@ -607,6 +607,7 @@
 "Assets/Scripts/MaterialsDemo.cs"
 "Assets/Scripts/MoveObject.cs"
 "Assets/Scripts/RandomColor.cs"
+"Assets/Scripts/RandomGenerator.cs"
 "Assets/Scripts/RandomMaterial.cs"
 "Assets/Scripts/RandomPosition.cs"
 "Assets/Scripts/VRControllerInput.cs"
