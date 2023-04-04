@@ -47,6 +47,7 @@ public class Generateobjects : MonoBehaviour {
             findobject.SetActive(true);
             findobject = transform.GetChild(4).gameObject;
             findobject.SetActive(true);
+            NewRandomObject();
         }
     }
 
