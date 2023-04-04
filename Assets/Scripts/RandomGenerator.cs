@@ -46,7 +46,5 @@ public class RandomGenerator : MonoBehaviour {
         ObjectToSpawn[3].transform.position = new Vector3(x4, y4, z4);
         ObjectToSpawn[4].transform.position = new Vector3(x5, y5, z5);
         ObjectToSpawn[5].transform.position = new Vector3(x6, y6, z6);
-
-
     }
 }

@@ -73,7 +73,6 @@
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\GrabObject.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\ViveSR\Scripts\Lip\Sample\SRanipal_AvatarLipSample.cs" />
-    <Compile Include="Assets\Scripts\ColorGameObjects.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\AugmentedObject.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\InteractableRegistry.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Scripts\PassthroughPlayInEditor.cs" />
@@ -107,6 +106,7 @@
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughSurface.cs" />
     <Compile Include="Assets\ViveSR\Scripts\Eye\Sample\SRanipal_GazeRaySample.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportPoint.cs" />
+    <Compile Include="Assets\Scripts\change_item.cs" />
     <Compile Include="Assets\ViveSR\Scripts\Lip\SRanipal_Lip_Framework.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\TouchPro\Scripts\Ui\UiDeviceInspector.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
@@ -140,6 +140,7 @@
     <Compile Include="Assets\Oculus\SampleFramework\Usage\TouchPro\Scripts\StylusTip\StylusTip.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\SceneSampler.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTargetHandlerNode.cs" />
+    <Compile Include="Assets\Scripts\Spawner.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainLocomotive.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportOrientationHandlerThumbstick.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainCrossingController.cs" />
@@ -167,6 +168,7 @@
     <Compile Include="Assets\ViveSR\Scripts\Eye\SRanipal_Eye_API.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainCarBase.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\Scripts\RandomGen.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\RayTool.cs" />
     <Compile Include="Assets\ViveSR\Scripts\Eye\Sample\SRanipal_EyeFocusSample.cs" />
@@ -180,6 +182,7 @@
     <Compile Include="Assets\Samples\OpenXR Plugin\1.5.3\Meshing Subsystem Feature\FallingSphere.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\HandsActiveChecker.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\Scripts\SpawnItem.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Scripts\BouncingBallMgr.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\Scripts\ColorObjectExample.cs" />
@@ -238,6 +241,7 @@
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughBrush.cs" />
     <Compile Include="Assets\Nokobot\Modern Guns - Handgun\_Demo Assets\SimpleShoot.cs" />
     <Compile Include="Assets\NatureManufacture Assets\VR Hands FP Arms\Scripts\HandAnimatorManagerVR.cs" />
+    <Compile Include="Assets\Scripts\RandomObjectSpawner.cs" />
     <Compile Include="Assets\ViveSR\Scripts\Lip\SRanipal_Lip.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\ColliderZone.cs" />
@@ -265,6 +269,7 @@
     <Compile Include="Assets\ViveSR\Scripts\Eye\SRanipal_Eye.cs" />
     <Compile Include="Assets\Scripts\MoveObject.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\PinchStateModule.cs" />
+    <Compile Include="Assets\Scripts\PickItem.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\WindmillBladesController.cs" />
     <Compile Include="Assets\Scripts\RandomMaterial.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportInputHandlerTouch.cs" />

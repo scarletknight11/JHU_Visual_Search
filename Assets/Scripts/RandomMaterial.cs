@@ -15,8 +15,4 @@ public class RandomMaterial : MonoBehaviour {
             wall.GetComponent<Renderer>().material = randomMaterials[Random.Range(0, randomMaterials.Length)];
         }
     }
-
-
-
-
 }

@@ -56,6 +56,5 @@ public class RandomPosition : MonoBehaviour {
         ObjectToSpawn[2].transform.position = new Vector3(PlaceX3, PlaceY3, PlaceZ3);
         ObjectToSpawn[3].transform.position = new Vector3(PlaceX4, PlaceY4, PlaceZ4);
         ObjectToSpawn[4].transform.position = new Vector3(PlaceX5, PlaceY5, PlaceZ5);
-
     }
 }
