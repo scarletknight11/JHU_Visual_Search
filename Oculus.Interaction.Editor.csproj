@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FB845B58-5D0B-F59F-AF82-CCD590D6835C}</ProjectGuid>
+    <ProjectGuid>{3762EAEC-9066-5516-9777-90A7DD55870C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Oculus.Interaction.Editor</AssemblyName>
@@ -814,15 +814,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Oculus.Interaction.csproj">
-      <Project>{DB3AB31A-9842-50EA-75E6-E0392E2887E2}</Project>
+      <Project>{0578644B-C501-7CEB-4E62-3C2556CC3836}</Project>
       <Name>Oculus.Interaction</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{BA4983D2-9D92-C638-5127-CE2CA8EDC8BD}</Project>
+      <Project>{8568FD14-56F9-505B-7D49-9B28CE39F449}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{F8AABD4A-1687-32D8-2D28-1DDABCA1E5D7}</Project>
+      <Project>{5D300D9F-1DB4-D893-D725-F49BD2D7AD1A}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1CAE1483-5E85-E023-D279-DD6FD4259C27}</ProjectGuid>
+    <ProjectGuid>{0D2EC762-95E2-21A4-1D6F-18571478DDDD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>AssistantCoreSDKEditor</AssemblyName>
@@ -774,15 +774,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="AssistantCoreSDKRuntime.csproj">
-      <Project>{9E113FA1-3563-F9E0-7928-8134CC68510F}</Project>
+      <Project>{B4E042F5-BCC1-0766-88B3-E7E640382208}</Project>
       <Name>AssistantCoreSDKRuntime</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{BA4983D2-9D92-C638-5127-CE2CA8EDC8BD}</Project>
+      <Project>{8568FD14-56F9-505B-7D49-9B28CE39F449}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{F8AABD4A-1687-32D8-2D28-1DDABCA1E5D7}</Project>
+      <Project>{5D300D9F-1DB4-D893-D725-F49BD2D7AD1A}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

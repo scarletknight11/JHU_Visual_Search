@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FFF76EA0-6516-AB6A-E8DC-DA6BBAE25B10}</ProjectGuid>
+    <ProjectGuid>{0C1448DE-7DA4-C97C-BCD7-1B14D997EF6F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Facebook.Wit.Conduit</AssemblyName>
@@ -771,15 +771,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="LitJson.csproj">
-      <Project>{E4373217-9EDB-034A-C6EA-B59B139B9864}</Project>
+      <Project>{192B9A64-9CA9-7E4C-9584-AF6546965A2A}</Project>
       <Name>LitJson</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{BA4983D2-9D92-C638-5127-CE2CA8EDC8BD}</Project>
+      <Project>{8568FD14-56F9-505B-7D49-9B28CE39F449}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{F8AABD4A-1687-32D8-2D28-1DDABCA1E5D7}</Project>
+      <Project>{5D300D9F-1DB4-D893-D725-F49BD2D7AD1A}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

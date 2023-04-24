@@ -31,8 +31,17 @@ public class Coloring : MonoBehaviour
                 }
             }
             indMat[num] = 1;
-            wall.GetComponent<MeshRenderer>().material = randomMaterials[num];
 
+            GameObject[] wallavg;
+
+            wall.GetComponent<MeshRenderer>().material = randomMaterials[num];
+           
+
+            //coloredWalls[0].GetComponent<MeshRenderer>().material = randomMaterials[num];
+            //coloredWalls[1].GetComponent<MeshRenderer>().material = randomMaterials[num];
+            //coloredWalls[2].GetComponent<MeshRenderer>().material = randomMaterials[num];
+            //coloredWalls[3].GetComponent<MeshRenderer>().material = randomMaterials[num];
+            //coloredWalls[4].GetComponent<MeshRenderer>().material = randomMaterials[num];
         }
     }
 }
