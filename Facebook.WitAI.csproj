@@ -56,9 +56,6 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\AssemblyInfo.cs" />
-    <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Events\VoiceState.cs" />
-    <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Utilities\VoiceServiceReference.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Entities\WitDynamicEntitiesData.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Traits\WitTrait.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Settings\WitSettings.cs" />
@@ -114,6 +111,7 @@
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\WitAuthUtility.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Interfaces\ITranscriptionEventProvider.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Interfaces\ITranscriptionProvider.cs" />
+    <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Events\VoiceState.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Events\VoiceEvents.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\WitResultUtilities.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\WitRequestFactory.cs" />
@@ -121,6 +119,7 @@
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Events\EventRegistry.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Configuration\WitConfiguration.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Entities\EntityRegistryComponents\RegisteredDynamicEntityKeyword.cs" />
+    <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\AssemblyInfo.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Entities\WitEntityRole.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\ServiceReferences\AudioInputServiceReference.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\AudioBufferConfiguration.cs" />
@@ -134,6 +133,7 @@
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Interfaces\IAudioEventProvider.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Lib\Mic.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\WitFloatValue.cs" />
+    <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Utilities\VoiceServiceReference.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Events\WitRequestOptionsEvent.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Entities\WitEntityData.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\ResponseManager\MatchIntentRegistry.cs" />
