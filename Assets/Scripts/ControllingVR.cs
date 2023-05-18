@@ -7,10 +7,7 @@ public class ControllingVR : MonoBehaviour {
     public GameObject cross;
     private GameObject findobject;
 
-    void Start()
-    {
-        Time.timeScale = 0.0f;
-    }
+
 
     // Update is called once per frame
     void Update()
