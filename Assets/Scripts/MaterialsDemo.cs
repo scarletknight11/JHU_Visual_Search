@@ -40,7 +40,8 @@ public class MaterialsDemo : MonoBehaviour {
             wall.GetComponent<MeshRenderer>().material = randomMaterials[num];
         }
 
-
+        GameObject thin = GameObject.Find("RandomColor/BookShelf/Cube5/Group1/Pyramid/Pyramid_Thin_Tip");
+        thin.GetComponent<MeshRenderer>().material = coloredWalls[3].GetComponent<MeshRenderer>().material;
     }
 
     void Update()
@@ -91,13 +92,14 @@ public class MaterialsDemo : MonoBehaviour {
         //game19.GetComponent<MeshRenderer>().material = coloredWalls[3].GetComponent<MeshRenderer>().material;
 
         GameObject game20 = GameObject.Find("RandomColor/BookShelf/Cube(8)/Cube(8)/Pyramid2 (1)/Pyramid_Thin_Tip");
-        game20.GetComponent<MeshRenderer>().material = coloredWalls[4].GetComponent<MeshRenderer>().material;
+        game20.GetComponent<MeshRenderer>().material = coloredWalls[3].GetComponent<MeshRenderer>().material;
         GameObject game21 = GameObject.Find("RandomColor/BookShelf/Cube (9)/Cube (9)/Pyramid2 (1)/Pyramid_Thin_Tip");
-        game21.GetComponent<MeshRenderer>().material = coloredWalls[4].GetComponent<MeshRenderer>().material;
+        game21.GetComponent<MeshRenderer>().material = coloredWalls[3].GetComponent<MeshRenderer>().material;
         GameObject game22 = GameObject.Find("RandomColor/BookShelf2/Cube (5)/Group1/Pyramid2 (1)/Pyramid_Thin_Tip");
-        game22.GetComponent<MeshRenderer>().material = coloredWalls[4].GetComponent<MeshRenderer>().material;
+        game22.GetComponent<MeshRenderer>().material = coloredWalls[3].GetComponent<MeshRenderer>().material;
         GameObject game23 = GameObject.Find("RandomColor/BookShelf2/Cube (8)/Group2/Pyramid3/Pyramid_Thin_Tip");
-        game23.GetComponent<MeshRenderer>().material = coloredWalls[4].GetComponent<MeshRenderer>().material;
+        game23.GetComponent<MeshRenderer>().material = coloredWalls[3].GetComponent<MeshRenderer>().material;
+
 
 
 
