@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngine.UI.csproj", "{5D300D9F-1DB4-D893-D725-F49BD2D7AD1A}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamVR", "SteamVR.csproj", "{B20EF5D9-B049-EAA1-98D7-90832AFC2106}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Platform", "Oculus.Platform.csproj", "{B1B6EAED-2F43-C954-0089-49F5734B75CD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Core.Runtime", "Unity.RenderPipelines.Core.Runtime.csproj", "{6B773F38-29F0-9EAB-FC3E-2AD2E7685542}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngine.UI.csproj", "{5D300D9F-1DB4-D893-D725-F49BD2D7AD1A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{523FD27F-6EDB-295E-6132-1C9EBA3C3999}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipeline.Universal.ShaderLibrary", "Unity.RenderPipeline.Universal.ShaderLibrary.csproj", "{59536ADC-7F15-6679-F4D6-94E40096D398}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceSDK.Dictation.Runtime", "VoiceSDK.Dictation.Runtime.csproj", "{11070CC3-54F5-A89C-944E-5F462E2B614A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTC.VIVE.OPENXR.SceneUnderstandingSample", "HTC.VIVE.OPENXR.SceneUnderstandingSample.csproj", "{DDB04AA5-2E74-2712-5A26-A262C3D0A0AB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceSDK.Runtime", "VoiceSDK.Runtime.csproj", "{01D51330-83F5-45D7-C321-31AA2C6A0CBA}"
 EndProject
@@ -127,6 +129,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D300D9F-1DB4-D893-D725-F49BD2D7AD1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D300D9F-1DB4-D893-D725-F49BD2D7AD1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D300D9F-1DB4-D893-D725-F49BD2D7AD1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D300D9F-1DB4-D893-D725-F49BD2D7AD1A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B20EF5D9-B049-EAA1-98D7-90832AFC2106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B20EF5D9-B049-EAA1-98D7-90832AFC2106}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B20EF5D9-B049-EAA1-98D7-90832AFC2106}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -139,10 +145,6 @@ Global
 		{6B773F38-29F0-9EAB-FC3E-2AD2E7685542}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B773F38-29F0-9EAB-FC3E-2AD2E7685542}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B773F38-29F0-9EAB-FC3E-2AD2E7685542}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5D300D9F-1DB4-D893-D725-F49BD2D7AD1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5D300D9F-1DB4-D893-D725-F49BD2D7AD1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5D300D9F-1DB4-D893-D725-F49BD2D7AD1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5D300D9F-1DB4-D893-D725-F49BD2D7AD1A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{523FD27F-6EDB-295E-6132-1C9EBA3C3999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{523FD27F-6EDB-295E-6132-1C9EBA3C3999}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{523FD27F-6EDB-295E-6132-1C9EBA3C3999}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -167,6 +169,10 @@ Global
 		{11070CC3-54F5-A89C-944E-5F462E2B614A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11070CC3-54F5-A89C-944E-5F462E2B614A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11070CC3-54F5-A89C-944E-5F462E2B614A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDB04AA5-2E74-2712-5A26-A262C3D0A0AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDB04AA5-2E74-2712-5A26-A262C3D0A0AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDB04AA5-2E74-2712-5A26-A262C3D0A0AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDB04AA5-2E74-2712-5A26-A262C3D0A0AB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{01D51330-83F5-45D7-C321-31AA2C6A0CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{01D51330-83F5-45D7-C321-31AA2C6A0CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01D51330-83F5-45D7-C321-31AA2C6A0CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
