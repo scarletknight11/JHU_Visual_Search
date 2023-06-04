@@ -1039,10 +1039,6 @@
       <Project>{74EF8524-C4E5-D85E-DC43-7E5F37A68435}</Project>
       <Name>Facebook.Wit.TTS</Name>
     </ProjectReference>
-    <ProjectReference Include="HTC.VIVE.OPENXR.SceneUnderstandingSample.csproj">
-      <Project>{DDB04AA5-2E74-2712-5A26-A262C3D0A0AB}</Project>
-      <Name>HTC.VIVE.OPENXR.SceneUnderstandingSample</Name>
-    </ProjectReference>
     <ProjectReference Include="Facebook.Wit.TTS.Editor.csproj">
       <Project>{69F56BFC-F63F-A5FF-D95C-26F854549F96}</Project>
       <Name>Facebook.Wit.TTS.Editor</Name>

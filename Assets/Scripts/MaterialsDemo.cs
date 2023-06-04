@@ -8,6 +8,7 @@ public class MaterialsDemo : MonoBehaviour {
 
     public GameObject[] coloredWalls;
     public GameObject[] coloredWalls2;
+    public GameObject[] randomObject;
     public Material[] randomMaterials;
 
     // Use this for initialization
