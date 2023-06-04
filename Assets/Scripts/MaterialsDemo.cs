@@ -8,7 +8,7 @@ public class MaterialsDemo : MonoBehaviour {
 
     public GameObject[] coloredWalls;
     public GameObject[] coloredWalls2;
-    public GameObject[] randomObject;
+    public List<GameObject> randomObject;
     public Material[] randomMaterials;
 
     // Use this for initialization
@@ -33,8 +33,7 @@ public class MaterialsDemo : MonoBehaviour {
                 num++;
                 if (num >= randomMaterials.Length)
                 {
-                    num = 0;
-                    
+                    num = 0; 
                 }
             }
             indMat[num] = 1;
@@ -122,5 +121,11 @@ public class MaterialsDemo : MonoBehaviour {
         game30.GetComponent<MeshRenderer>().material = coloredWalls[5].GetComponent<MeshRenderer>().material;
         GameObject game31 = GameObject.Find("RandomColor/BookShelf2/Cube (8)/Group2/Pyramid (2)/Pyramid_Thin_Tip");
         game31.GetComponent<MeshRenderer>().material = coloredWalls[5].GetComponent<MeshRenderer>().material;
+    }
+
+    public void RandomObject()
+    {
+        int newIndex = Random.Range(0, randomObject.Count);
+
     }
 }
