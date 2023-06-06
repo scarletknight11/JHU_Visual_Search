@@ -50,6 +50,7 @@ public class MaterialsDemo : MonoBehaviour {
         coloredWalls2[4].GetComponent<MeshRenderer>().material = coloredWalls[6].GetComponent<MeshRenderer>().material;
         coloredWalls2[5].GetComponent<MeshRenderer>().material = coloredWalls[3].GetComponent<MeshRenderer>().material;
         coloredWalls2[6].GetComponent<MeshRenderer>().material = coloredWalls[4].GetComponent<MeshRenderer>().material;
+        RandomObject();
     }
 
     void Update()
@@ -125,7 +126,10 @@ public class MaterialsDemo : MonoBehaviour {
 
     public void RandomObject()
     {
-        int newIndex = Random.Range(0, randomObject.Count);
-
+        foreach (GameObject wall in coloredWalls)
+        {
+            int newIndex = Random.Range(0, randomObject.Count);
+            randomObject[newIndex].SetActive(false);
+        }
     }
 }
