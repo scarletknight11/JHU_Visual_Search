@@ -14,6 +14,14 @@ public class Generateobjects : MonoBehaviour {
 
     public int objNum;
     public int objCount = 0;
+    public List<GameObject> randomObject;
+    public List<GameObject> randomObject2;
+    int count = 0;
+
+    void Start()
+    {
+        
+    }
 
     // Update is called once per frame
     void Update()
@@ -33,15 +41,28 @@ public class Generateobjects : MonoBehaviour {
             findobject.SetActive(true);
             //NewRandomObject();
         }
+
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            RandomObject();
+        }
     }
 
-    public void NewRandomObject()
+    public void RandomObject()
     {
-        objNum = Random.Range(0, objects.Length);
-        // Deactivate old gameobject
-        objects[objCount].SetActive(false);
-        // Activate new gameobject
-        objCount = objNum;
-        objects[objCount].SetActive(true);
+        Debug.Log("Clicked");
+        int newIndex = Random.Range(0, randomObject.Count);
+        //Deactive old gameobject
+        randomObject[newIndex].SetActive(false);
     }
+
+    //public void NewRandomObject()
+    //{
+    //    objNum = Random.Range(0, objects.Length);
+    //    // Deactivate old gameobject
+    //    objects[objCount].SetActive(false);
+    //    // Activate new gameobject
+    //    objCount = objNum;
+    //    objects[objCount].SetActive(true);
+    //}
 }

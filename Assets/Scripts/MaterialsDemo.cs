@@ -8,7 +8,6 @@ public class MaterialsDemo : MonoBehaviour {
 
     public GameObject[] coloredWalls;
     public GameObject[] coloredWalls2;
-    public List<GameObject> randomObject;
     public Material[] randomMaterials;
 
     // Use this for initialization
@@ -41,8 +40,8 @@ public class MaterialsDemo : MonoBehaviour {
             wall.GetComponent<MeshRenderer>().material = randomMaterials[num];
         }
 
-        coloredWalls[3].GetComponent<MeshRenderer>().material = coloredWalls[4].GetComponent<MeshRenderer>().material;
-        coloredWalls[5].GetComponent<MeshRenderer>().material = coloredWalls[6].GetComponent<MeshRenderer>().material;
+        coloredWalls[3].GetComponent<MeshRenderer>().material  = coloredWalls[4].GetComponent<MeshRenderer>().material;
+        coloredWalls[5].GetComponent<MeshRenderer>().material  = coloredWalls[6].GetComponent<MeshRenderer>().material;
         coloredWalls2[0].GetComponent<MeshRenderer>().material = coloredWalls[0].GetComponent<MeshRenderer>().material;
         coloredWalls2[1].GetComponent<MeshRenderer>().material = coloredWalls[1].GetComponent<MeshRenderer>().material;
         coloredWalls2[2].GetComponent<MeshRenderer>().material = coloredWalls[2].GetComponent<MeshRenderer>().material;
@@ -50,7 +49,6 @@ public class MaterialsDemo : MonoBehaviour {
         coloredWalls2[4].GetComponent<MeshRenderer>().material = coloredWalls[6].GetComponent<MeshRenderer>().material;
         coloredWalls2[5].GetComponent<MeshRenderer>().material = coloredWalls[3].GetComponent<MeshRenderer>().material;
         coloredWalls2[6].GetComponent<MeshRenderer>().material = coloredWalls[4].GetComponent<MeshRenderer>().material;
-        RandomObject();
     }
 
     void Update()
@@ -124,12 +122,5 @@ public class MaterialsDemo : MonoBehaviour {
         game31.GetComponent<MeshRenderer>().material = coloredWalls[5].GetComponent<MeshRenderer>().material;
     }
 
-    public void RandomObject()
-    {
-        foreach (GameObject wall in coloredWalls)
-        {
-            int newIndex = Random.Range(0, randomObject.Count);
-            randomObject[newIndex].SetActive(false);
-        }
-    }
+
 }
