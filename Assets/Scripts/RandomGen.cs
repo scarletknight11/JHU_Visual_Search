@@ -19,8 +19,8 @@ public class RandomGen : MonoBehaviour {
             {
                 objects[objCount].SetActive(false);
                 objCount += 1;
-                objects[objNum].SetActive(true);
             }
-        }     
+            objects[objNum].SetActive(true);
+        }
     }
 }

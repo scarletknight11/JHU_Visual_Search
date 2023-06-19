@@ -18,11 +18,6 @@ public class Generateobjects : MonoBehaviour {
     public List<GameObject> randomObject2;
     int count = 0;
 
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -51,9 +46,17 @@ public class Generateobjects : MonoBehaviour {
     public void RandomObject()
     {
         Debug.Log("Clicked");
-        int newIndex = Random.Range(0, randomObject.Count);
+        //int newIndex = Random.Range(0, randomObject.Count);
         //Deactive old gameobject
-        randomObject[newIndex].SetActive(false);
+        //randomObject[newIndex].SetActive(false);
+        objNum = Random.Range(0, objects.Length);
+        objCount = 0;
+        while (objCount < objects.Length)
+        {
+            randomObject[objCount].SetActive(false);
+            objCount += 1;
+        }
+        randomObject[objNum].SetActive(true);
     }
 
     //public void NewRandomObject()
