@@ -121,6 +121,4 @@ public class MaterialsDemo : MonoBehaviour {
         GameObject game31 = GameObject.Find("RandomColor/BookShelf2/Cube (8)/Group2/Pyramid (2)/Pyramid_Thin_Tip");
         game31.GetComponent<MeshRenderer>().material = coloredWalls[5].GetComponent<MeshRenderer>().material;
     }
-
-
 }

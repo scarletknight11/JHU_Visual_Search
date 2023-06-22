@@ -16,7 +16,7 @@ public class Generateobjects : MonoBehaviour {
     public int objCount = 0;
     public List<GameObject> randomObject;
     public List<GameObject> randomObject2;
-    int count = 0;
+    public Material[] randomMaterials;
 
     // Update is called once per frame
     void Update()
@@ -34,7 +34,6 @@ public class Generateobjects : MonoBehaviour {
             findobject.SetActive(true);
             findobject = transform.GetChild(4).gameObject;
             findobject.SetActive(true);
-            //NewRandomObject();
         }
 
         if (Input.GetKeyDown(KeyCode.S))
@@ -46,17 +45,15 @@ public class Generateobjects : MonoBehaviour {
     public void RandomObject()
     {
         Debug.Log("Clicked");
-        //int newIndex = Random.Range(0, randomObject.Count);
-        //Deactive old gameobject
-        //randomObject[newIndex].SetActive(false);
         objNum = Random.Range(0, objects.Length);
-        objCount = 0;
-        while (objCount < objects.Length)
-        {
+        objCount = Random.Range(0, objects.Length);
+        //while (objCount < objects.Length)
+        //{
             randomObject[objCount].SetActive(false);
-            objCount += 1;
-        }
-        randomObject[objNum].SetActive(true);
+            //objCount += 1;
+        //}
+        randomObject2[objNum].SetActive(true);
+        randomObject2[objNum].GetComponent<MeshRenderer>().enabled = randomObject[objCount].GetComponent<MeshRenderer>().enabled;
     }
 
     //public void NewRandomObject()

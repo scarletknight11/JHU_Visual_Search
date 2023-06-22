@@ -31,9 +31,7 @@ public class Coloring : MonoBehaviour
                 }
             }
             indMat[num] = 1;
-
             wall.GetComponent<MeshRenderer>().material = randomMaterials[num];
-
         }
     }
 }
