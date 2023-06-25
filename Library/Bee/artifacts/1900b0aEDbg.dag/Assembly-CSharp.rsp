@@ -582,6 +582,7 @@
 "Assets/Scripts/RandomMaterial.cs"
 "Assets/Scripts/RandomObjectSpawner.cs"
 "Assets/Scripts/RandomPosition.cs"
+"Assets/Scripts/RandomPositioning.cs"
 "Assets/Scripts/Spawner.cs"
 "Assets/Scripts/SpawnItem.cs"
 "Assets/Scripts/VRControllerInput.cs"

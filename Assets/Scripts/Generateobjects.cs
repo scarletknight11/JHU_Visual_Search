@@ -46,14 +46,17 @@ public class Generateobjects : MonoBehaviour {
     {
         Debug.Log("Clicked");
         objNum = Random.Range(0, objects.Length);
-        objCount = Random.Range(0, objects.Length);
+        objCount = 0;
         //while (objCount < objects.Length)
         //{
+            if(objCount < objects.Length)
+            {
             randomObject[objCount].SetActive(false);
-            //objCount += 1;
+            objCount += 1;
+            }
         //}
         randomObject2[objNum].SetActive(true);
-        randomObject2[objNum].GetComponent<MeshRenderer>().enabled = randomObject[objCount].GetComponent<MeshRenderer>().enabled;
+        randomObject2[objNum].GetComponent<MeshRenderer>().material = randomObject[objNum].GetComponent<MeshRenderer>().material;
     }
 
     //public void NewRandomObject()
